@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24941A9B1C5744B500D76ED0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24941A9A1C5744B500D76ED0 /* main.m */; };
+		24941AA41C57628D00D76ED0 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 24941AA31C57628D00D76ED0 /* Student.m */; };
+		24941AA71C5762B400D76ED0 /* Teacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 24941AA61C5762B400D76ED0 /* Teacher.m */; };
+		24941AC31C579BC900D76ED0 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = 24941AC21C579BC900D76ED0 /* Animal.m */; };
+		24941AC91C579C7000D76ED0 /* Carnivore.m in Sources */ = {isa = PBXBuildFile; fileRef = 24941AC81C579C7000D76ED0 /* Carnivore.m */; };
+		24941ACC1C579CB700D76ED0 /* LionAndTiger.m in Sources */ = {isa = PBXBuildFile; fileRef = 24941ACB1C579CB700D76ED0 /* LionAndTiger.m */; };
+		24941ACF1C579CEF00D76ED0 /* Herbivore.m in Sources */ = {isa = PBXBuildFile; fileRef = 24941ACE1C579CEF00D76ED0 /* Herbivore.m */; };
+		24941AD21C579D7A00D76ED0 /* CattleAndSheep.m in Sources */ = {isa = PBXBuildFile; fileRef = 24941AD11C579D7A00D76ED0 /* CattleAndSheep.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		24941A951C5744B500D76ED0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		24941A971C5744B500D76ED0 /* Homework_02_丁云川 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Homework_02_丁云川"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24941A9A1C5744B500D76ED0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		24941AA21C57628D00D76ED0 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		24941AA31C57628D00D76ED0 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		24941AA51C5762B400D76ED0 /* Teacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Teacher.h; sourceTree = "<group>"; };
+		24941AA61C5762B400D76ED0 /* Teacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Teacher.m; sourceTree = "<group>"; };
+		24941AC11C579BC900D76ED0 /* Animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		24941AC21C579BC900D76ED0 /* Animal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
+		24941AC71C579C7000D76ED0 /* Carnivore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Carnivore.h; sourceTree = "<group>"; };
+		24941AC81C579C7000D76ED0 /* Carnivore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Carnivore.m; sourceTree = "<group>"; };
+		24941ACA1C579CB700D76ED0 /* LionAndTiger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LionAndTiger.h; sourceTree = "<group>"; };
+		24941ACB1C579CB700D76ED0 /* LionAndTiger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LionAndTiger.m; sourceTree = "<group>"; };
+		24941ACD1C579CEF00D76ED0 /* Herbivore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Herbivore.h; sourceTree = "<group>"; };
+		24941ACE1C579CEF00D76ED0 /* Herbivore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Herbivore.m; sourceTree = "<group>"; };
+		24941AD01C579D7A00D76ED0 /* CattleAndSheep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CattleAndSheep.h; sourceTree = "<group>"; };
+		24941AD11C579D7A00D76ED0 /* CattleAndSheep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CattleAndSheep.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24941A941C5744B500D76ED0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24941A8E1C5744B500D76ED0 = {
+			isa = PBXGroup;
+			children = (
+				24941A991C5744B500D76ED0 /* Homework_02_丁云川 */,
+				24941A981C5744B500D76ED0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24941A981C5744B500D76ED0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24941A971C5744B500D76ED0 /* Homework_02_丁云川 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24941A991C5744B500D76ED0 /* Homework_02_丁云川 */ = {
+			isa = PBXGroup;
+			children = (
+				24941A9A1C5744B500D76ED0 /* main.m */,
+				24941AA21C57628D00D76ED0 /* Student.h */,
+				24941AA31C57628D00D76ED0 /* Student.m */,
+				24941AA51C5762B400D76ED0 /* Teacher.h */,
+				24941AA61C5762B400D76ED0 /* Teacher.m */,
+				24941AC01C579BA600D76ED0 /* 继承：animal */,
+			);
+			path = "Homework_02_丁云川";
+			sourceTree = "<group>";
+		};
+		24941AC01C579BA600D76ED0 /* 继承：animal */ = {
+			isa = PBXGroup;
+			children = (
+				24941AC11C579BC900D76ED0 /* Animal.h */,
+				24941AC21C579BC900D76ED0 /* Animal.m */,
+				24941AC71C579C7000D76ED0 /* Carnivore.h */,
+				24941AC81C579C7000D76ED0 /* Carnivore.m */,
+				24941ACA1C579CB700D76ED0 /* LionAndTiger.h */,
+				24941ACB1C579CB700D76ED0 /* LionAndTiger.m */,
+				24941ACD1C579CEF00D76ED0 /* Herbivore.h */,
+				24941ACE1C579CEF00D76ED0 /* Herbivore.m */,
+				24941AD01C579D7A00D76ED0 /* CattleAndSheep.h */,
+				24941AD11C579D7A00D76ED0 /* CattleAndSheep.m */,
+			);
+			name = "继承：animal";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24941A961C5744B500D76ED0 /* Homework_02_丁云川 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24941A9E1C5744B500D76ED0 /* Build configuration list for PBXNativeTarget "Homework_02_丁云川" */;
+			buildPhases = (
+				24941A931C5744B500D76ED0 /* Sources */,
+				24941A941C5744B500D76ED0 /* Frameworks */,
+				24941A951C5744B500D76ED0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Homework_02_丁云川";
+			productName = "Homework_02_丁云川";
+			productReference = 24941A971C5744B500D76ED0 /* Homework_02_丁云川 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24941A8F1C5744B500D76ED0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Ding YunChuan";
+				TargetAttributes = {
+					24941A961C5744B500D76ED0 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 24941A921C5744B500D76ED0 /* Build configuration list for PBXProject "Homework_02_丁云川" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 24941A8E1C5744B500D76ED0;
+			productRefGroup = 24941A981C5744B500D76ED0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24941A961C5744B500D76ED0 /* Homework_02_丁云川 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24941A931C5744B500D76ED0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24941AA71C5762B400D76ED0 /* Teacher.m in Sources */,
+				24941A9B1C5744B500D76ED0 /* main.m in Sources */,
+				24941AA41C57628D00D76ED0 /* Student.m in Sources */,
+				24941ACF1C579CEF00D76ED0 /* Herbivore.m in Sources */,
+				24941AD21C579D7A00D76ED0 /* CattleAndSheep.m in Sources */,
+				24941AC91C579C7000D76ED0 /* Carnivore.m in Sources */,
+				24941AC31C579BC900D76ED0 /* Animal.m in Sources */,
+				24941ACC1C579CB700D76ED0 /* LionAndTiger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		24941A9C1C5744B500D76ED0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		24941A9D1C5744B500D76ED0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		24941A9F1C5744B500D76ED0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		24941AA01C5744B500D76ED0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24941A921C5744B500D76ED0 /* Build configuration list for PBXProject "Homework_02_丁云川" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24941A9C1C5744B500D76ED0 /* Debug */,
+				24941A9D1C5744B500D76ED0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24941A9E1C5744B500D76ED0 /* Build configuration list for PBXNativeTarget "Homework_02_丁云川" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24941A9F1C5744B500D76ED0 /* Debug */,
+				24941AA01C5744B500D76ED0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24941A8F1C5744B500D76ED0 /* Project object */;
+}
